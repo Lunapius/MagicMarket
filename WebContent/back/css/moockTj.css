@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*格式化样式*/
+*{margin:0;padding:0}
+body{font:12px/1.5 Microsoft YaHei,Arial, Helvetica, sans-serif;color:#333;}
+table{width:100%; border-collapse:collapse;border:none;border-spacing:0}
+a{text-decoration:none;}
+img{border:none}
+input{vertical-align:middle;outline:none}
+textarea{outline:none;}
+ul,ol,dl{list-style:none;}
+b,em,i,u,strong{font-weight:normal;font-style:normal;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-size:14px;font-weight:normal;}
+
+/*公共样式*/
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{overflow:hidden;zoom:1}
+.clear{clear:both}
+.red{color:#d10000;}
+.font14{font-size:14px;}
+.blue{color:#5699cc;}
+.col9{color:#999;}
+
+.wrap1100{width:1100px;margin:0 auto;}
+.tjHeader{height:143px;background:#FFF;margin-top:12px;}
+.tjTitle{width:770px;padding:0 50px;line-height:36px;padding-top:40px;}
+.tjTitle h3{font-size:24px;}
+.tjTitle02{padding-bottom:20px; margin-bottom:10px;}
+.tjTitle02 h3{font-size:24px;padding-top:33px;line-height:30px;padding-bottom:10px;}
+
+.marTop20 {margin-top:20px;}
+.tjMain {background: #FFFFFF;padding: 12px 50px 30px;}
+.tjCourse{font-size:16px;color:#363636;height:54px;line-height:54px;}
+.tjTable01 tr th{height:43px;line-height:43px;border:solid 1px #d9d9d9;border-bottom:solid 1px #f0f0f0;background:#f4f4f4;padding:0 5px;color:#898989;font-size:14px;}
+.tjTable01 tr th .top{display:inline-block;width:11px;height:13px;background:url(../images/kjIcon.png) no-repeat left top;}
+.tjTable01 tr th .bottom{display:inline-block;width:11px;height:13px;background:url(../images/kjIcon.png) no-repeat right top;}
+.tjTable01 tr td{padding:10px 5px;color:#555;border-bottom:dotted 1px #cbcbcb;}
+.tjTable01 tr td i.red{float:left;margin-left:156px;}
+.tjTable01 tr a.xq{}
+.tjTable01 tr.Bg{background:#f8f8f8;}
+.tjTable01 tr.show a.xq{display:block;}
+.tjTableCon{overflow:hidden;}
+.tjMore{height:30px;line-height:30px;width:80px;margin:20px auto;font-size:14px;}
+.tjMore i{width:11px;height:6px;background:url(../images/kjIcon.png) no-repeat left -18px;display:inline-block;margin-left:10px;}
+.tjMore a.hid i{width:11px;height:6px;background:url(../images/kjIcon.png) no-repeat right -18px;display:inline-block;margin-left:10px;}
+.tjMore02 a.hid02 {display:none}
+.tjMore02 a.hid{display:block;}
+
+.Axzzjbtn{display:block;background:#7b9e31;padding:0 10px;font-size:14px;height:28px;line-height:28px;border-radius:3px;margin-bottom:15px;color:#fff;}
+.Axzzjbtn:hover{color:#fff;}
+.Zytbicon{display:inline-block;width:15px;height:16px;background:url(../images/tjIcons.png) no-repeat left -25px;margin-right:5px;vertical-align: middle;}
+.Zytbicon2{display:inline-block;width:18px;height:18px;background:url(../images/tabSpan.gif) no-repeat;margin-right:5px;vertical-align: middle;}
+
+.het{height:auto;}
+.DTList{/*border:solid 1px #dfdfdf;*/padding:20px;}
+.tjCon{background:url(../images/kjSHu.gif) repeat-y 121px ;}
+.DTList .DTListDaYi{margin-left:108px;}
+.DTList .DTListDaYi span.dy{float:left;width:30px;height:34px;background:url(../images/kjicons.png) no-repeat -310px -176px;margin-top:3px;}
+.DTList .DTListDaYi span.tl{float:left;width:30px;height:34px;background:url(../images/kjicons.png) no-repeat -350px -176px;margin-top:3px;}
+.DTList .DTListDaYi span.zl{float:left;width:30px;height:34px;background:url(../images/kjicons.png) no-repeat -390px -176px;margin-top:3px;}
+.DTList .DTListDaYi span.yz{float:left;width:30px;height:34px;background:url(../images/kjicons.png) no-repeat -430px -176px;margin-top:3px;}
+.DTList .DTListDaYi span.cy{float:left;width:30px;height:34px;background:url(../images/kjicons.png) no-repeat -470px -176px;margin-top:3px;}
+.DTList .DTListDaYi span.video{float:left;width:30px;height:34px;background:url(../images/kjicons.png) no-repeat -312px -668px;margin-top:3px;}
+.DTList .DTListDaYi .DTListDYRIght{position:relative;line-height:24px;margin-top:5px;border:solid 1px #dcdcdc;border-radius:5px;padding:5px;margin-left:10px;background:#fbfbfb;-webkit-box-shadow: -1px -1px 5px #CCC;-moz-box-shadow: -1px -1px 5px #CCC ;box-shadow: -1px -1px 5px #CCC;}
+.DTList .DTListDaYi .DTListDYRIght p{line-height:20px;}
+.DTList .DTListDaYi .DTListDYRIght a.photo{width:25px;height:25px;margin-right:10px;}
+.clock{background:url(../images/kjicons.png) no-repeat -306px -285px;padding-left:20px;color:#999;}
+.DTList .DTListDaYi .DTListDYRIght a.blue02{color:#2070bf;}
+.DTList .DTListDaYi .DTListDYRIght a.blue02:hover{color:#003366;}
+.LeftDian{position:absolute;width:7px;height:10px;background:url(../images/kjicons.png) no-repeat -464px -244px;left:-6px;top:7px;}
+.LeftDian:hover{background:url(../images/kjicons.png) no-repeat -480px -244px;}
+.DTList .DTListDaYi.Hover .DTListDYRIght{background:#f5f9fc;border-color:#cddce8;}
+
+.DAte{padding:10px 20px;overflow:hidden;zoom:1;}
+.DAte span{float:left;width:79px;height:26px;background:url(../images/kjicons.png) no-repeat -303px -215px;font-size:14px;text-align:left;line-height:26px;padding-left:6px;margin-right:12px;}
+.DAte b{float:left;width:12px;height:15px;background:url(../images/kjicons.png) no-repeat -442px -244px;}
+.pad110{padding-left:110px;}
+
+.wid480{width:655px;}
+.wid480 .wid02{width:600px}
+.wid410{width:545px;}
+.wid410 .wid02{width:500px;}
+.wid350{width:405px;}
+.wid350 .wid02{width:360px;}
+/*返回*/
+/*.Reback{height:46px;line-height:46px;padding-top:5px;}
+.Reback a{font-size:14px; color:#0099cc;}
+.Reback i{ width:13px; height:15px; background:url(../images/kjicons.png) -40px -116px no-repeat; float:left; margin-right:5px; margin-top:16px;}
+.Reback a:hover{color:#003366}*/
+
+.jd{padding-top:10px;}
+.jdLeft{width:310px;float:left;height:20px;background:#eaeaea;border-radius:5px;}
+.jdLeft span{display:block;height:20px;background:#5ccd59;border-radius:5px;}
+.tjUnit{border:solid 1px  #d7d7d7;border-left:none;border-right:none;overflow:hidden;}
+
+.tjUnit table.tab01 tr td,.tjUnit table tr th{padding:0 10px;}
+.tjUnit table.tab01 tr td{height:45px;border-bottom:dotted 1px #cfcfcf}
+.tjUnit table.tab01 tr th{height:45px;background:#efefef;border-left:solid 1px #d7d7d7;color:#666;}
+.tjUnit table.tab01 tr td.tdBg{background:#f2f2f2;}
+.tjUnit table.tab01 tr td.tdbg02{background:#EAF6F2;padding:0}
+.tjUnit table.tab02 tr td{height:45px;border-bottom:dotted 1px #cfcfcf}
+.tjUnit table.tab02 tr th{height:40px;background:#efefef;border-left:solid 1px #eee;border-bottom:solid 1px #eee;padding:0;color:#666;font-weight:100;padding-top:5px;word-wrap:break-word;word-break:break-all;}
+.tjUnit table.tab02 tr th.box_r{height:45px;padding-top:0;}
+.tjUnit table.tab02 tr th.box_l{height:45px;padding-top:0;}
+.tjUnit table.tab02 tr td.tdBg{background:#eff5f9;}
+.tjUnit table.tab02 tr.HoverBg{background:#f8f8f8;}
+.tjUnit table.tab02 tr th span.tabSpan{/*background:url(../images/tabSpan.gif) no-repeat left center;*/padding-left:5px;padding-right:5px;}
+.tjUnit table.tab02 tr th  a.tabA{/*background:url(../images/tabA.gif) no-repeat left center;*/padding-left:5px;padding-top:5px;color:#666;}
+.tjUnit table.tab01 tr.HoverBg{background:#f8f8f8;}
+
+/*.Btn_blue_1{display:inline-block; height:28px;padding:0 10px;background:#0099cc; border:1px solid #0081ac; border-bottom:1px solid #006789; font-size:14px; color:#FFF; line-height:25px; cursor:pointer; border-radius:2px;}
+.Btn_blue_1:hover{ background:#0089b7; border:1px solid #0079a1; border-bottom:1px solid #005672; color:#FFF;}*/
+
+.leftBtnNone{display:block; width:37px;height:44px; background:url(../images/leftBtnNone.gif) no-repeat;}
+a.leftBtn{display:block; width:37px;height:44px; background:url(../images/leftBtn.gif) no-repeat;}
+a.leftBtn:hover{ background:url(../images/leftBtnHover.gif) no-repeat;}
+
+.rightBtnNone{display:block; width:37px;height:44px; background:url(../images/rightBtnNone.gif) no-repeat;}
+a.rightBtn{display:block; width:37px;height:44px; background:url(../images/rightBtn.gif) no-repeat;}
+a.rightBtn:hover{ background:url(../images/rightBtnHover.gif) no-repeat;}
+
+.PY{background:#43bdb7;display:inline-block;height:21px;line-height:21px;border-radius:5px;color:#FFF;padding:0 10px;}
+.PY:hover{color:#FFF;background:#238f8a}
+.smlPer{width:84px;height:16px;background:#bfdbd0;border-radius:3px;text-align:left;position:relative;}
+.smlPer span{display:block;height:16px;background:#5ccd59;border-radius:3px;}
+.smlPer b{position:absolute;width:84px;height:16px;line-height:16px;color:#FFF;top:0;left:0;text-align:center;}
+
+.studentMain{border-bottom:solid 0px #d9d9d9;}
+.studentTitle{font-size:18px;height:30px;line-height:30px;border-bottom:solid 2px #d9d9d9;padding-bottom:15px;}
+.studenCon{overflow:hidden;}
+.studenCon h3{padding:10px 0;font-size:14px;color:#555;}
+.studenCon p{padding:15px 0;width:385px;}
+
+.tjUnit02 table.tab03 tr td{height:45px;border-top:solid 1px #CCC;border-right:dotted 1px #CCC}
+.tjUnit02 table.tab03 tr th{height:44px;background:#fafafa;border-left:solid 1px #ccc;padding:0;color:#666;overflow:hidden;}
+.tjUnit02 table.tab03 tr th span.tabSpan{background:url(../images/tabSpan.gif) no-repeat left center;padding-left:20px;display:inline-block}
+.tjUnit02 table.tab03 tr th  a.tabA{background:url(../images/tabA.gif) no-repeat left center;padding-left:20px;padding-top:2px;color:#666;display:inline-block;}
+.tjUnit02 table.tab03 tr td .smallTable tr th,.tjUnit02 table.tab03 tr td .smallTable tr td{border:none}
+.tjUnit02 table.tab03 tr th .smallTable tr td{border-right:none;border-top:none}
+
+.tjUnit02{border:solid 1px #cbd0d8;}
+.tjTime01 {line-height:45px;width:80px;text-align:left;color:#555;}
+.tjTime01 i{float:left;width:16px;height:16px;background:url(../images/TjTime.png) no-repeat left top;margin-right:3px;margin-top:13px;}
+.tjTime02 {line-height:45px;width:80px;text-align:left;color:#ef921a;}
+.tjTime02 i{float:left;width:16px;height:11px;background:url(../images/TjTime.png) no-repeat right top;margin-right:3px;margin-top:18px;}
+.tjTime02 i.already{background:url(../images/alreday.png) no-repeat;}
+
+.tjTime03 {line-height:45px;width:80px;text-align:left;color:#ef921a;}
+.tjTime03 i{width:16px;height:11px;margin-right:3px;margin-top:18px;}
+.tjTime03 i.already{background:url(../images/alreday.png) no-repeat;}
+
+.needShow{}
+.hide{display:none}
+.newTjBottom{border:solid 1px #CBD0D8;padding:1px}
+.newTjBottom table tr td{padding:10px;border-left:solid 1px #D7D7D7}
+.newTjBottom table tr th{padding:10px;border-left:solid 1px #D7D7D7;background:#EFEFEF}
+.newTjBottom table tr th,.newTjBottom table tr td{font-size:14px;font-weight:100px;color:#777;}
+
+/*2014-03-24*/
+.tjDetail{font-size:24px;margin-bottom:10px;}
+.tjDetailTitle{height:48px;line-height:48px;border-bottom:solid 2px #dbdbdb;font-size:14px;}
+.tjDetailTitle a{color:#0099cc;}
+.tjDetailBottom{padding-top:34px;}
+.tjDetailBottom table{margin-top:-1px;}
+.tjDetailBottom table tr td{border:solid 1px #cfd4dc;padding:10px;height:20px;}
+.tjDetailBottom table tr td.tjTdBg{background:#f1f3f4;font-size:14px;}
+/*.tjDetailBottom table tr td p{display:inline}*/
+/*.tjDetailBottom table tr td span{padding:0 10px;float:left;}*/
+.tjLrBtn{height:21px;line-height:21px;padding:0 7px;border-radius:5px;background:#00beb8;color:#FFF;}
+.tjLrBtn:hover{background:#019f9a;color:#FFF;}
+.tjDetailBtn{height:21px;line-height:21px;padding:0 7px;border-radius:5px;background:#0099cc;color:#FFF;}
+.tjDetailBtn:hover{background:#017da6;color:#FFF;}
+/**
+*  章节目录的下拉菜单样式
+**/
+/*添加*/
+.xuanxiang{margin-top:10px;height:26px;}
+.choicemenu{position:relative;float:left;}
+.choicelist{position:absolute;width:380px;border:1px solid #e2e2e2;background:#fff;left:10px;top:27px;height:300px;overflow-y:scroll;display:none}
+.alreadychoice{width:85px;height:25px;line-height:25px;text-align:center;background:#fcfcfc;border:1px solid #ccc;border-radius:3px;cursor:pointer;}
+.alreadychoice em{width:7px;height:4px;display:inline-block;font-size:0px;line-height:0px;overflow:hidden;background:url(../images/bg.png) -49px -178px;margin:10px 10px 0px 0px;float:right;}
+.alreadychoice em.xiangxi{background-position: -58px -178px}
+.defaults{height:36px;line-height:36px;font-size:14px;padding-left:10px;}
+.listcontent h2{padding-left:10px;background:#fafafa}
+.listcontent h2,.listcontent h3,.listcontent h4{font-size:12px;font-weight:normal;height:22px;line-height:22px;border-top:1px solid #e2e2e2}
+.listcontent h3{padding-left:30px;cursor:pointer}
+.listcontent h2:hover,.listcontent h3:hover,.listcontent h4:hover{background:#ccc;cursor: pointer}
+.listcontent h4{padding-left:40px;cursor:pointer}
+
+.highcharts span{float:left;height:31px;line-height:31px;background:#f2f2f2;margin-left:3px;font-size:14px;width:81px;text-align:center}
+.highcharts span.currents{background:#7a9e30;color:#FFF;}
+/*2014-07-08*/
+/*公共table样式表*/
+.discusTitle{height:50px;line-height:50px;font-size:18px;}
+.commonTable tr th{border:solid 1px #e1e1e1;padding:10px 5px;text-align:center;font-size:14px;color:#555;background:#fafafa;}
+.commonTable tr th.borLeftNone,.commonTable tr td.borLeftNone{border-left:none;}
+.commonTable tr th.borRightNone,.commonTable tr td.borRightNone{border-right:none;}
+.commonTable tr td.bgColor,.commonTable tr.bgColor{background:#fafafa;}
+.commonTable tr td{border-bottom:solid 1px #e1e1e1;padding:10px 5px;text-align:center;font-size:12px;border-right:dashed 1px #e1e1e1;border-left:dashed 1px #e1e1e1;color:#666;}
+.commonTable tr th em{display:inline-block;width:10px;height:10px;background:url(../images/topdownicons.gif) no-repeat}
+.commonTable tr th em.top{background-position:left bottom}
+.commonTable tr th em.bottom{background-position:left top;padding-bottom:0}
+.commonTable tr th.gren{background:#7a9e30;color:#FFF;}
+.commonTable tr th.gren a{color:#FFF;}
+.commonTable tr th.gren em.top{background-position:right bottom}
+.commonTable tr th.gren em.bottom{background-position:right top}
+.commonTable tr th.gren a{color:#FFF;}
+.commonTable tr th.gren em.top{background-position:right bottom}
+.commonTable tr th.gren em.bottom{background-position:right top;padding-bottom:0;}
+.commonTable tr th.thbg02{background:#7a9e30}
+.commonTable tr th.thbg02 a{color:#FFF;}
+.commonTable tr th.thbg02 em.top{background-position:right bottom}
+.commonTable tr th.thbg02 em.bottom{background-position:right top}
+.commonTable tr th.thbg02 a{color:#FFF;}
+.commonTable tr th.thbg02 em.top{background-position:right bottom}
+.commonTable tr th.thbg02 em.bottom{background-position:right top}
+/*2014-07-07*/
+.tjStuRight{width:117px;padding-top:25px;position:relative;}
+.tjStuRight ul{background:#95b948;display:none;position:absolute;left:0;top:58px;width:117px;z-index:999}
+.tjStuRight ul li{height:25px;border-top:solid 1px #afd362;line-height:25px;color:#FFF;}
+.width52{width:52px;padding-left:10px;padding-right:15px;text-align:right;}
+.tjStuTitle{height:49px;line-height:49px;font-size:16px;}
+.tjStuBottom li{height:24px;line-height:24px;margin-bottom:10px;}
+.wid40{width:62px;font-size:14px;color:#000}
+.tjStuPer{width:232px;margin-top:4px;background:#bfdbd0;height:16px;border-radius:3px;position:relative}
+.tjStuPer span{display:inline-block;height:16px;background:#5ccd59;border-radius:3px}
+.tjStuPer b{position:absolute;height:16px;line-height:16px;color:#FFF;left:49%;top:0}
+
+.wrap1000{width:1000px;margin:0 auto}
+.tjStu0707{width:655px;}
+.tjStuLeftTop{height:54px;border:solid 1px #f4e6e5;border-left:none;border-right:none;background:#fbf5f4;margin-top:15px;line-height:54px;padding:0 20px;font-size:14px;color:#666;}
+.tjStuLeftTop span i{font-size:22px;color:#d21313}
+.tjStuLeftTop span em{color:#000;}
+
+.Zytbicon1{display:inline-block;width:15px;height:16px;background:url(../images/tjIcons.png) no-repeat left -51px;vertical-align: middle;}
+.Zytbicon4{display:block;margin-right:2px;width:17px;height:16px;background:url(../images/tabSpan.gif) no-repeat;position:absolute;left:5px;top:0}
+
+/* 返回按钮样式 */
+.backBtn{padding-left:20px;font-size:14px;color:#7a9e30;background:url(/images/group/fh.png) no-repeat left center;}
+.backBtn:hover{color:#7a9e30;} 
